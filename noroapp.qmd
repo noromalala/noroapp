@@ -21,7 +21,7 @@ library(DT)
 library(tidyverse)
 
 # Load the parasite data from CSV
-shiny_data <- read.csv("C:/Users/nurum/Desktopshinny/shiny_data.csv")
+shiny_data <- read.csv("C:/Users/nurum/Desktop/shinny/shiny_data.csv")
 
 # Define UI ----
 ui <- fluidPage(
@@ -45,9 +45,9 @@ ui <- fluidPage(
   sidebarLayout(
     sidebarPanel(
       # Adding the image in the sidebar panel with spacing
-      tags$style(".sidebar .shiny-input-container { margin-bottom: 20px; }"),
-      img(src = "https://github.com/noromalala/noroapp/raw/main/Red-fronted%20brown%20lemur%20(22).JPG", 
-          width = 425, height = 600),
+     tags$style(".sidebar .shiny-input-container { margin-bottom: 20px; }"),
+img(src = "https://raw.githubusercontent.com/noromalala/noroapp/main/lemur.JPG", 
+    width = 425, height = 600),
       br(),
       br(),
       br(),
